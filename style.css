@@ -113,11 +113,11 @@ button:hover{
 #login:hover{
     background-color: #dc549c;
 }
-.fonts{
+/* .fonts{
     font-family: 'Spartan', sans-serif;
     font-family: 'Knewave', cursive;
     font-family: 'Bebas Neue', cursive;
-}
+} */
 
 /* CAROUSEL */
 
@@ -297,6 +297,29 @@ button:hover{
     padding: 20px;
 }
 
+
+/* HOVER EFFECTS
+
+.revhover {
+    position: relative;	
+      margin:  0 auto;
+}
+
+.revhover img {
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+}
+
+.revhover .revhover_frontimg {
+    z-index: 9999;
+    transition: opacity .5s linear;
+}
+
+.revhover:hover > .revhover_frontimg{
+    opacity: 0;
+} */
 
 /* COURSES */
 
@@ -610,9 +633,9 @@ footer{
     padding-bottom: 20px;
 }
 
-.footerform{
+/* .footerform{
     border: #ffffff solid 3px;
-    padding: 8px 475px 8px 20px;
+    padding: 15px 475px 15px 20px;
     margin-right: 20px;
     background-color:  #2e2513;
     font-size: 20px;
@@ -624,13 +647,38 @@ footer{
     border: #ffffff solid 3px;
     border-radius: 25px;
     padding: 5px 16px;
-    background-color:  #fcae17;
+    background-color:  transparent;
     cursor: pointer;
     font-family: 'Spartan black', sans-serif;
     font-size: 25px;
     font-weight: 1500;
-    color: #ffffff}
+    color: #ffffff
+} */
 
+.footerform{
+    border: #ffffff solid 3px;
+    padding: 15px 400px 15px 20px;
+    margin-right: 20px;
+    background-color:  #2e2513;
+    font-size: 20px;
+    font-family: 'Spartan medium', sans-serif;
+    color: #7a756b
+}
+
+.footerbutton{
+    border: #ffffff solid 3px;
+    padding: 11px 25px;
+    background-color:  transparent;
+    cursor: pointer;
+    font-family: 'Spartan black', sans-serif;
+    font-size: 25px;
+    color: #ffffff
+}
+
+.footerbutton:hover{
+    background-color: #fcae17;
+}
+        
 
 
 .footerbottom{
