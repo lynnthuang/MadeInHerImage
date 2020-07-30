@@ -34,7 +34,6 @@ header{
     padding: 25px 3%;
     background-color: rgba(0,0,0, 0.8); 
     height: 90px;
-    /* opacity: 80%; */
 }
 
 .logo{
@@ -366,22 +365,22 @@ button:hover{
     font-size: 72px;
     color: #ffffff;
     background-color: transparent;
-    margin: 101px 0 0 177px;
+    margin: 100px 0 0 175px;
     position: absolute;
 }
 
 .creatorimage{
     background-color: transparent;
-    margin: 227px 0 0 248px;
+    margin: 225px 0 0 200px;
     position: absolute;
 }
 
 .creatorbox{
     background-color: black;
-    height: 537px;
+    height: 535px;
     width: 900px;
     border-radius: 25px;
-    margin: 236px 0 0 850px;
+    margin: 235px 0 0 800px;
     position: absolute;
 }
 
@@ -389,7 +388,7 @@ button:hover{
     font-family: 'Spartan bold', sans-serif;
     font-size: 120px;
     color: #ffffff;
-    margin: 57px 0 0 40px;
+    margin: 30px 0 0 40px;
     position: absolute;
 }
 
@@ -397,7 +396,7 @@ button:hover{
     font-family: 'Spartan medium', sans-serif;
     font-size: 40px;
     color: #ffffff;
-    margin: 86px 0 0 131px;
+    margin: 85px 0 0 105px;
     position: absolute;
 }
 
@@ -405,7 +404,7 @@ button:hover{
     font-family: 'Spartan regular', sans-serif;
     font-size: 16px;
     color: #ffffff;
-    margin: 416px 0 0 131px;
+    margin: 415px 0 0 105px;
     position: absolute;
 }
 
@@ -495,6 +494,7 @@ button:hover{
     overflow: hidden;
     background-image: url(images/background3.png);
     min-height: 1060px;
+    padding: 140px 170px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -506,8 +506,7 @@ button:hover{
     font-size: 72px;
     color: #ffffff;
     background-color: transparent;
-    margin: 140px 0 0 170px;
-    position: absolute;
+    padding-bottom: 30px;
 }
 
 .ambasscaption{
@@ -515,68 +514,46 @@ button:hover{
     font-size: 24px;
     color: #ffffff;
     background-color: transparent;
-    margin: 253px 0 0 170px;
-    position: absolute;
+    padding-bottom: 40px;
 }
 
-.kennedyimg{
+.comrow{
+    float: left;
     background-color: transparent;
-    margin: 363px 0 0 177px;
-    position: absolute;
 }
 
-.madisonimg{
+.communityimg{
     background-color: transparent;
-    margin: 363px 0 0 588px;
-    position: absolute;
 }
 
-.taylorimg{
+.comcolumn{
+    float: left;
+    width: 25%;
+    margin: 40px 0 0 0;
+    padding-right: 100px;
     background-color: transparent;
-    margin: 363px 0 0 1006px;
-    position: absolute;
 }
 
-.gabrielle2img{
-    background-color: transparent;
-    margin: 363px 0 0 1420px;
-    position: absolute;
+.comrow::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .namefonts{
     font-family: 'Spartan medium', sans-serif;
     font-size: 24px;
     font-weight: 700;
+    text-align: center;
     color: #ffffff;
     background-color: transparent;
 }
 
-.kennedy{
-    margin: 697px 0 0 274px;
-    position: absolute;
-}
-
-.madison{
-    margin: 697px 0 0 694px;
-    position: absolute;
-}
-
-.taylor{
-    margin: 697px 0 0 1125px;
-    position: absolute;
-}
-
-.gabrielle2{
-    margin: 697px 0 0 1526px;
-    position: absolute;
-}
-
 #joinbutton{
     border: #fcae17 solid 5px;
-    padding: 27px 534px;
+    padding: 27px 500px;
     font-size: 32px;
-    position: absolute;
-    margin: 842px 0 0 150px;
+    margin-top: 125px;
 }
 
 #joinbutton:hover{
