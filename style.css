@@ -1,0 +1,691 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: black;
+}
+.inline-block{
+    display: inline-block;
+}
+
+li{
+    font-family: 'Spartan black', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.headernav{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    margin:auto;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 3%;
+    background-color: rgba(0,0,0, 0.8); 
+    height: 90px;
+    /* opacity: 80%; */
+}
+
+.logo{
+    cursor: pointer;
+    margin-left: 170px;
+    background-color: transparent;
+}
+
+nav{
+    background-color: transparent;
+}
+
+.menu{
+    list-style: none;
+    background-color: transparent;
+}
+.menu li{
+    display: inline-block;
+    padding: 0px 30px;
+    background-color: transparent;
+}
+
+a:link{
+    text-decoration: none;
+    background-color: transparent;
+    color: white
+}
+
+a:active{
+    text-decoration: none;
+    background-color: transparent;
+    color: white
+}
+
+a:visited{
+    text-decoration: none;
+    background-color: transparent;
+    color: white
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color:#fcae17;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff
+}
+
+.navsignup{
+    margin-right: 168px;
+    background-color: transparent;
+}
+
+button:hover{
+    color:#ffffff;
+}
+#signup{
+    border: #fcae17 solid 5px;
+    margin-right: 20px;
+}
+#login{
+    border: #dc549c solid 5px;
+}
+
+#signup:hover{
+    background-color: #fcae17;
+}
+#login:hover{
+    background-color: #dc549c;
+}
+.fonts{
+    font-family: 'Spartan', sans-serif;
+    font-family: 'Knewave', cursive;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* CAROUSEL */
+
+.carousel{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 180px 80px 0 80px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-image: url(images/banner1.png);
+    height: 930px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.leftarrow{
+    float: left;
+    background-color: transparent;
+    margin-top: 200px;
+}
+
+.rightarrow{
+    float: right;
+    background-color: transparent;
+    margin-top: 200px;
+}
+
+.CarouselTitle{
+    font-family: 'Knewave', cursive;
+    font-size: 120px;
+    line-height: 97.9%;
+    color: #fcae17;
+}
+
+.carouseltext{
+    float: left;
+    background-color: transparent;
+    margin-left: 90px;
+}
+
+.Carouselparagraph{
+    font-family: 'Spartan regular', sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+    color: #ffffff;
+}
+
+#signupbutton1{
+    border: #fcae17 solid 5px;
+    padding: 27px 80px;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+#signupbutton1:hover{
+    background-color: #fcae17;}
+    
+
+
+/* MISSION STATEMENT */
+
+.container2{
+    background-image: url(images/backgroundpattern.png);
+    min-height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 220px 240px 130px 240px;
+}
+
+.mademission{
+    font-family: 'Spartan black', sans-serif;
+    font-size: 96px;
+    color: #fcae17;
+    background-color: transparent;
+}
+
+.missionline2{
+    padding-bottom: 20px;
+    margin-top: -40px;
+}
+
+.creative{
+    font-family: 'Spartan black', sans-serif;
+    font-size: 96px;
+    color: #b92774;
+    background-color: transparent;
+    padding-right: 20px;
+}
+
+.community{
+    font-family: 'Knewave', cursive;
+    font-size: 120px; 
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.missiontext{
+    font-family: 'Spartan regular', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.missiontext2{
+    font-family: 'Spartan regular', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+
+}
+
+#learnmorebutton1{
+    float: right;
+    border: #fcae17 solid 5px;
+    padding: 27px 80px;
+    font-size: 32px;
+    margin-top: 80px;
+}
+
+#learnmorebutton1:hover{
+    background-color: #fcae17;
+}
+
+/* REVOLUTIONARY */
+
+.container3{
+    height: 800px;
+    margin: 125px 170px;
+}
+
+.revoheader{
+    text-align: center;
+    margin-top: -40px;
+}
+
+.revotext{
+    font-family: 'Spartan extrabold', sans-serif;
+    font-size: 85px;
+    text-align: center;
+    color: #fcae17;
+    background-color: transparent;
+}
+
+.fearless{
+    font-family: 'Spartan extrabold', sans-serif;
+    font-size: 85px;
+    color: #fcae17;
+    padding-right: 20px;
+    background-color: transparent;
+}
+
+.revolutionaries{
+    font-family: 'Knewave', cursive;
+    font-size: 120px; 
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.revorow{
+    vertical-align: text-top;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+}
+
+.revodescrip{
+    font-family: 'Spartan regular', sans-serif;
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* COURSES */
+
+.container4{
+    width: 100vw;
+    height: 1000px;
+    display: block;
+    padding: 70px 145px;
+}
+
+.courseheader{
+    float: left;
+    font-family: 'Spartan black', sans-serif;
+    font-size: 96px;
+    color: #ffffff;
+}
+
+#learnmorebutton2{
+    float: right;
+    border: #fcae17 solid 5px;
+    padding: 27px 80px;
+    margin: 215px 0 0 0;
+    font-size: 32px;
+}
+
+#learnmorebutton2:hover{
+    background-color: #fcae17;
+}
+
+.courserow{
+    float: left;
+}
+
+.courseimages{
+    float: left;
+    width: 25%;
+    margin: 40px 0 0 0;
+    padding-right: 20px;
+}
+
+.courserow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+    
+.coursedescription{
+        font-family: 'Spartan black', sans-serif;
+        font-size: 24px;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+}
+
+/* CREATORS */
+
+.container5{
+    background-image: url(images/background2.png);
+    min-height: 880px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+.creatorheader{
+    font-family: 'Spartan black', sans-serif;
+    font-size: 72px;
+    color: #ffffff;
+    background-color: transparent;
+    margin: 101px 0 0 177px;
+    position: absolute;
+}
+
+.creatorimage{
+    background-color: transparent;
+    margin: 227px 0 0 248px;
+    position: absolute;
+}
+
+.creatorbox{
+    background-color: black;
+    height: 537px;
+    width: 900px;
+    border-radius: 25px;
+    margin: 236px 0 0 850px;
+    position: absolute;
+}
+
+.quote{
+    font-family: 'Spartan bold', sans-serif;
+    font-size: 120px;
+    color: #ffffff;
+    margin: 57px 0 0 40px;
+    position: absolute;
+}
+
+.quotetext{
+    font-family: 'Spartan medium', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 86px 0 0 131px;
+    position: absolute;
+}
+
+.quotecaption{
+    font-family: 'Spartan regular', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 416px 0 0 131px;
+    position: absolute;
+}
+
+/* FEATURED WORKS */
+
+.featuredwork{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    height: 1100px;
+    position: relative;
+}
+
+.featuredheader{
+    font-family: 'Spartan black', sans-serif;
+    font-size: 68px;
+    color: #ffffff;
+    background-color: transparent;
+    margin: 140px 0 0 170px;
+    position: absolute;
+}
+
+.featuredcolumn{
+    float: left;
+    width: 50%;
+    margin: 275px 0 0 0;
+}
+
+.featuredrow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.gabrielleimg{
+    background-color: transparent;
+    margin: 25px 0 0 80px;
+    position: absolute;
+}
+
+.erikaimg{
+    background-color: transparent;
+    margin: 15px 0 0 1051px;
+    position: absolute;
+}
+
+.ballettext{
+    background-color: transparent;
+    margin: 32px 0 0 264px;
+    position: absolute;
+}
+
+.workwhitetext{
+    font-family: 'Spartan medium', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.workpurpletext{
+    font-family: 'Spartan medium', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #b92774;
+}
+
+.worksmalltext{
+    font-family: 'Spartan medium', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.soulstext{
+    background-color: transparent;
+    margin: 32px 0 0 1230px;
+    position: absolute;
+}
+
+/* AMBASSADORS */
+
+.communityambassadors{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    background-image: url(images/background3.png);
+    min-height: 1060px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+.ambassheader{
+    font-family: 'Spartan black', sans-serif;
+    font-size: 72px;
+    color: #ffffff;
+    background-color: transparent;
+    margin: 140px 0 0 170px;
+    position: absolute;
+}
+
+.ambasscaption{
+    font-family: 'Spartan medium', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: transparent;
+    margin: 253px 0 0 170px;
+    position: absolute;
+}
+
+.kennedyimg{
+    background-color: transparent;
+    margin: 363px 0 0 177px;
+    position: absolute;
+}
+
+.madisonimg{
+    background-color: transparent;
+    margin: 363px 0 0 588px;
+    position: absolute;
+}
+
+.taylorimg{
+    background-color: transparent;
+    margin: 363px 0 0 1006px;
+    position: absolute;
+}
+
+.gabrielle2img{
+    background-color: transparent;
+    margin: 363px 0 0 1420px;
+    position: absolute;
+}
+
+.namefonts{
+    font-family: 'Spartan medium', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.kennedy{
+    margin: 697px 0 0 274px;
+    position: absolute;
+}
+
+.madison{
+    margin: 697px 0 0 694px;
+    position: absolute;
+}
+
+.taylor{
+    margin: 697px 0 0 1125px;
+    position: absolute;
+}
+
+.gabrielle2{
+    margin: 697px 0 0 1526px;
+    position: absolute;
+}
+
+#joinbutton{
+    border: #fcae17 solid 5px;
+    padding: 27px 534px;
+    font-size: 32px;
+    position: absolute;
+    margin: 842px 0 0 150px;
+}
+
+#joinbutton:hover{
+    background-color: #fcae17;}
+    
+
+/* FOOTER */
+
+footer{
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 60px 180px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.footertop{
+    height: 200px;
+}
+
+.footerlinks{
+    float: left;
+    width: 450px;
+    font-family: 'Spartan extrabold', sans-serif;
+    font-size: 20px;
+    padding-top: 25px;
+    color: #ffffff;
+}
+
+.footerlinks1{
+    float: left;
+    padding-bottom: 30px;
+}
+
+.footerline{
+    padding-bottom: 40px;
+}
+
+.footerlinks2{
+    float: right;
+}
+
+.newsletter{
+    float: right;
+}
+
+.footerreceive{
+    font-family: 'Spartan medium', sans-serif;
+    font-size: 38px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.footerform{
+    border: #ffffff solid 3px;
+    padding: 8px 475px 8px 20px;
+    margin-right: 20px;
+    background-color:  #2e2513;
+    font-size: 20px;
+    font-family: 'Spartan medium', sans-serif;
+    color: #7a756b}
+
+
+.footerbutton{
+    border: #ffffff solid 3px;
+    border-radius: 25px;
+    padding: 5px 16px;
+    background-color:  #fcae17;
+    cursor: pointer;
+    font-family: 'Spartan black', sans-serif;
+    font-size: 25px;
+    font-weight: 1500;
+    color: #ffffff}
+
+
+
+.footerbottom{
+    height: 30px;
+}
+
+.footerlogo{
+    cursor: pointer;
+    float: left;
+}
+
+.footerbottomright{
+    width: 890px;
+    float: right;
+}
+
+.footersublinks{
+    float: left;
+    cursor: pointer;
+    font-family: 'Spartan regular', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    color: #ffffff
+}
+
+.ftlink{
+    padding-right: 70px;
+}
+
+.footersocial{
+    float: right;
+    cursor: pointer;
+}
+
+.fticon{
+    padding-right: 10px;
+}
