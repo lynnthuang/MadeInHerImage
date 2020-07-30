@@ -153,6 +153,7 @@ button:hover{
     font-size: 120px;
     line-height: 97.9%;
     color: #fcae17;
+    background-color: transparent;
 }
 
 .carouseltext{
@@ -166,6 +167,7 @@ button:hover{
     font-size: 25px;
     padding-top: 50px;
     color: #ffffff;
+    background-color: transparent;
 }
 
 #signupbutton1{
